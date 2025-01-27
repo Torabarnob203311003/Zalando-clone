@@ -1,3 +1,4 @@
+import Banner from './components/banner';
 import Dropmenu from './components/dropmenu';
 import Header from './components/header';
 import Navbar from './components/navbar';
@@ -10,6 +11,7 @@ function App() {
       <Header/>
        <Navbar/>
       <Dropmenu/>
+      <Banner/>
      
       </div>
   );
