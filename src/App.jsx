@@ -12,6 +12,8 @@ function App() {
        <Navbar/>
       <Dropmenu/>
       <Banner/>
+
+      <h1 className='  text-4xl' > see  you next day</h1> 
      
       </div>
   );
