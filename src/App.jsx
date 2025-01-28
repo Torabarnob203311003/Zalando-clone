@@ -3,6 +3,7 @@ import Dropmenu from './components/dropmenu';
 import Header from './components/header';
 import Hero from './components/hero';
 import Navbar from './components/navbar';
+import Products from './components/products';
 import logo from './logo.svg';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Dropmenu/>
       <Banner/>
       <Hero/>
+      <Products/>
 
   
      
