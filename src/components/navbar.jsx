@@ -14,7 +14,7 @@ function Navbar() {
               </div>
 
               <div className="flex-grow  flex justify-center">
-                 <img src="" alt="" />
+                 <img src="zalando.png" alt="" />
               </div>
 
               <div className="flex mr-72 space-x-4">
