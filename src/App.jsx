@@ -1,6 +1,7 @@
 import Banner from './components/banner';
 import Dropmenu from './components/dropmenu';
 import Header from './components/header';
+import Hero from './components/hero';
 import Navbar from './components/navbar';
 import logo from './logo.svg';
 
@@ -12,8 +13,9 @@ function App() {
        <Navbar/>
       <Dropmenu/>
       <Banner/>
+      <Hero/>
 
-      <h1 className='  text-4xl' > see  you next day</h1> 
+  
      
       </div>
   );
