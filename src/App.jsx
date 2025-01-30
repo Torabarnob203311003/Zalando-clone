@@ -8,23 +8,29 @@ import logo from './logo.svg';
 import StoryCard from './components/storycard'
 import PromotionalBanner from './components/PromotionalBanner';
 
+import ProductSection from './components/ProductSection';
+import { products, workoutShoeProducts } from './contents/contentconfigs';
+
 function App() {
   return (
     <div className="font-sans">
       {/* Header */}
-      <Header/>
-       <Navbar/>
-      <Dropmenu/>
-      <Banner/>
-      <Hero/>
-      <Products/>
-      <StoryCard />  
-      <PromotionalBanner/>  
-      <Products />  
+      <Header />
+      <Navbar />
+      <Dropmenu />
+      <Banner />
+      <Hero />
+      <Products products={products} color='bg-amber-400' imgstyle={"w-72 h-fit object-cover rounded-lg"} />
+      <StoryCard />
+      <PromotionalBanner />
 
-  
-     
-      </div>
+      <Products products={workoutShoeProducts} color='bg-amber-200' imgstyle={"w-72 h-fit object-cover rounded-lg"} />
+      <ProductSection/>
+
+
+
+
+    </div>
   );
 }
 
