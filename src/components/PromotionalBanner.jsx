@@ -8,7 +8,7 @@ function PromotionalBanner() {
                 <div>
                     <h2 className="text-5xl  font-bold">New Year Cleanout</h2>
                     <p className="text-3xl font-semibold">Sell your items and get 20% more</p>
-                    <a href="#" className=" inline-block font-semibold  text-xl">
+                    <a href="#" className=" mt-10 inline-block font-semibold  text-xl">
                         Start now →
                     </a>
                 </div>
@@ -25,15 +25,15 @@ function PromotionalBanner() {
             </div>
 
             {/* Winter Collection */}
-            <div className="bg-gray-300 text-black py-10 px-10 flex items-center justify-between">
+            <div className="bg-gray-300 text-black mt-16 py-24 px-96 flex items-center justify-between">
                 <div>
-                    <h3 className="text-2xl font-bold">Feel the warmth</h3>
-                    <p className="text-lg">Cosy winter loungewear</p>
-                    <a href="#" className="mt-4 inline-block font-semibold underline">
+                    <h3 className="text-5xl  font-bold">Feel the warmth</h3>
+                    <p className="text-3xl font-semibold">Cosy winter loungewear</p>
+                    <a href="#" className="inline-block mt-10 font-semibold  text-xl">
                         Shop now →
                     </a>
                 </div>
-                <img src="product9.jpg" alt="Winter Loungewear" className="w-80 h-48 object-cover" />
+                <img src="https://img01.ztat.net/banner/18032221892544e4ab31f4da157e4a39/926bba6fb2864410a9cc5773e993d1d2.jpg?imwidth=1200" alt="Winter Loungewear" className="-20 h-72 object-cover" />
             </div>
         </div>
     );
