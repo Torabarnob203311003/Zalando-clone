@@ -1,23 +1,15 @@
 import React, { useRef } from "react";
 
-function StoryCard() {
+function StoryCard({stories,lines}) {
     // Sample stories data
-    const stories = [
-        { id: 1, type: "image", src: "product8.jpg", brand: "The North Face x Bialetti", title: "Coffee with a view", description: "Just peaked" },
-        { id: 2, type: "video", src: "vedio1.mp4", brand: "Sneaker Rotation", title: "2025 sneaker predictions", description: "Our hottest picks for the New Year" },
-        { id: 3, type: "image", src: "product7.jpg", brand: "ASICS", title: "ASICS GEL-NYC", description: "The cult favourite blooms for spring" },
-        { id: 4, type: "video", src: "vedio2.mp4", brand: "Saucony", title: "2025 is Saucony’s year", description: "Here’s what you need to know" },
-        { id: 5, type: "image", src: "product1.jpg", brand: "Fashion", title: "New year, new look", description: "Matthew Zorpas’ 2025 style" },
-        { id: 6, type: "video", src: "vedio1.mp4", brand: "Fashion", title: "New year, new look", description: "Matthew Zorpas’ 2025 style" },
-        { id: 7, type: "image", src: "product4.jpg", brand: "Fashion", title: "New year, new look", description: "Matthew Zorpas’ 2025 style" },
-    ];
+ 
 
     const scrollContainerRef = useRef(null);
 
     return (
         <div className="py-12 pl-64 bg-black text-white">
             <h2 className="text-4xl font-bold px-10">Stories that inspire</h2>
-            <p className="text-3xl font-thin  px-10 ">Curated weekly</p>
+            <p className="text-3xl font-thin  px-10 ">{`${lines}`}</p>
 
             <section
                 ref={scrollContainerRef}

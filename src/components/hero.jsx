@@ -1,6 +1,6 @@
  import React from 'react'
  
- export default function Hero() {
+ export default function Hero({heading,sunheading,click}) {
    return (
      <div>
            <section className="flex flex-col lg:flex-row items-center justify-between mt-16 px-20 py-10 bg-gray-300">

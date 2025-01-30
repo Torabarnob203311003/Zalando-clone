@@ -324,3 +324,72 @@ export const workoutShoeProducts = [
     unitsSold: 110,
   },
 ];
+
+  export const stories = [
+        { id: 1, type: "image", src: "product8.jpg", brand: "The North Face x Bialetti", title: "Coffee with a view", description: "Just peaked" },
+        { id: 2, type: "video", src: "vedio1.mp4", brand: "Sneaker Rotation", title: "2025 sneaker predictions", description: "Our hottest picks for the New Year" },
+        { id: 3, type: "image", src: "product7.jpg", brand: "ASICS", title: "ASICS GEL-NYC", description: "The cult favourite blooms for spring" },
+        { id: 4, type: "video", src: "vedio2.mp4", brand: "Saucony", title: "2025 is Saucony’s year", description: "Here’s what you need to know" },
+        { id: 5, type: "image", src: "product1.jpg", brand: "Fashion", title: "New year, new look", description: "Matthew Zorpas’ 2025 style" },
+        { id: 6, type: "video", src: "vedio1.mp4", brand: "Fashion", title: "New year, new look", description: "Matthew Zorpas’ 2025 style" },
+        { id: 7, type: "image", src: "product4.jpg", brand: "Fashion", title: "New year, new look", description: "Matthew Zorpas’ 2025 style" },
+    ];
+
+    export const stories2 = [
+  {
+    id: 1,
+    type: "image",
+    src: "trouser.jpg",
+    brand: "Levi’s",
+    title: "Timeless Denim",
+    description: "Classic jeans for every occasion",
+  },
+  {
+    id: 2,
+    type: "video",
+    src: "trouser1.mp4",
+    brand: "ZARA",
+    title: "The Perfect Fit",
+    description: "Discover our latest slim-fit trousers",
+  },
+  {
+    id: 3,
+    type: "image",
+    src: "trouser2.jpg",
+    brand: "H&M",
+    title: "Relaxed Comfort",
+    description: "Everyday chinos with a modern twist",
+  },
+  {
+    id: 4,
+    type: "video",
+    src: "trouser2.mp4",
+    brand: "Nike",
+    title: "Street-Ready Joggers",
+    description: "Performance and style in one",
+  },
+  {
+    id: 5,
+    type: "image",
+    src: "trouser4.jpg",
+    brand: "Adidas",
+    title: "Athleisure Essential",
+    description: "Track pants built for movement",
+  },
+  {
+    id: 6,
+    type: "image",
+    src: "trouser5.jpg",
+    brand: "Uniqlo",
+    title: "Winter Warmers",
+    description: "Thermal trousers to keep you cozy",
+  },
+  {
+    id: 7,
+    type: "image",
+    src: "trouser6.jpg",
+    brand: "Ralph Lauren",
+    title: "Tailored Elegance",
+    description: "Formal trousers with a sleek finish",
+  },
+];

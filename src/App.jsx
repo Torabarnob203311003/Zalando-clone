@@ -9,7 +9,11 @@ import StoryCard from './components/storycard'
 import PromotionalBanner from './components/PromotionalBanner';
 
 import ProductSection from './components/ProductSection';
-import { products, workoutShoeProducts } from './contents/contentconfigs';
+import { products, workoutShoeProducts, stories, stories2 } from './contents/contentconfigs';
+import Heroagain from './components/heroagain';
+
+
+
 
 function App() {
   return (
@@ -21,13 +25,13 @@ function App() {
       <Banner />
       <Hero />
       <Products products={products} color='bg-amber-400' imgstyle={"w-72 h-fit object-cover rounded-lg"} />
-      <StoryCard />
+      <StoryCard stories={stories} lines="feel the Vibe"  />
       <PromotionalBanner />
 
       <Products products={workoutShoeProducts} color='bg-amber-200' imgstyle={"w-72 h-fit object-cover rounded-lg"} />
       <ProductSection/>
-
-
+      <StoryCard stories={stories2} lines ="feel the Trouser" />
+            <Heroagain/>
 
 
     </div>
