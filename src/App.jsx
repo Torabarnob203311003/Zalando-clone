@@ -19,7 +19,8 @@ function App() {
       <Hero/>
       <Products/>
       <StoryCard />  
-      <PromotionalBanner/>    
+      <PromotionalBanner/>  
+      <Products />  
 
   
      

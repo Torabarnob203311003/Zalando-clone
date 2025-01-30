@@ -1,6 +1,3 @@
 {
- "rewrites" : [
-                   {"spurce " : "/(.*)", "destination": "/"} 
- ]
-  
+  "rewrites": [{ "source ": "/(.*)", "destination": "/" }]
 }

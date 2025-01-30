@@ -5,7 +5,7 @@ function PromotionalBanner() {
         <div className="w-full mt-12">
            
             <div className="bg-red-700 text-white py-8   h-[350px] pb-48 px-96 flex justify-between items-center">
-                <div>
+                <div className=" mt-20">
                     <h2 className="text-5xl  font-bold">New Year Cleanout</h2>
                     <p className="text-3xl font-semibold">Sell your items and get 20% more</p>
                     <a href="#" className=" mt-10 inline-block font-semibold  text-xl">
