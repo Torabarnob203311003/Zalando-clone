@@ -6,6 +6,7 @@ import Navbar from './components/navbar';
 import Products from './components/products';
 import logo from './logo.svg';
 import StoryCard from './components/storycard'
+import PromotionalBanner from './components/PromotionalBanner';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       <Banner/>
       <Hero/>
       <Products/>
-      <StoryCard />      
+      <StoryCard />  
+      <PromotionalBanner/>    
 
   
      
