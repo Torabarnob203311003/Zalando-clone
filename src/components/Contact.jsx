@@ -96,7 +96,7 @@ export default function Footer() {
                 {/* Partners & Payment Methods */}
                 <div className="flex flex-col lg:flex-row justify-between items-center mt-10">
                     <div>
-                        <h3 className="font-bold text-lg">Our partners</h3>
+                        <h3 className="font-bold text-2xl">Our partners</h3>
                         <div className="flex gap-4 mt-2">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/PostNord_logo.svg/2560px-PostNord_logo.svg.png" alt="PostNord" className="w-20" />
                             <img src="https://www.bing.com/images/search?view=detailV2&ccid=pAxemrIY&id=1BB6B0DA673B8A0FBCFEE776EB829111CB543DD9&thid=OIP.pAxemrIYPO04uwmSi21hdwHaES&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.a40c5e9ab2183ced38bb09928b6d6177%3frik%3d2T1UyxGRgut25w%26riu%3dhttp%253a%252f%252ftechcabal.com%252fwp-content%252fuploads%252f2015%252f08%252fdhl_logo876.jpg%26ehk%3dI4ngLHZ5RyK%252fU%252fWhyBgvUDMvE2GGt7kUdsgAtozDN%252fg%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=1366&expw=2362&q=DHL&simid=607995107554627214&FORM=IRPRST&ck=4685C41F3573B429DB2772AFC4E7BBC6&selectedIndex=0&itb=0" alt="DHL" className="w-20" />
@@ -105,7 +105,7 @@ export default function Footer() {
                     </div>
 
                     <div>
-                        <h3 className="font-bold text-lg">Our payment methods</h3>
+                        <h3 className="font-bold text-2xl">Our payment methods</h3>
                         <div className="flex gap-4 mt-2">
                             <img src="https://www.freepnglogos.com/uploads/visa-card-logo-9.png" alt="Visa" className="w-16" />
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/2560px-Mastercard-logo.svg.png" alt="Mastercard" className="w-16" />

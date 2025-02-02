@@ -12,7 +12,7 @@
                </div>
                <div className="flex  mt-6 min-w-52  pr-36 lg:mt-0">
                    
-           <img src="https://img01.ztat.net/banner/de55b9bcb2e748938ae136a2e000c8e7/f965d1a218944cff8e2eac41340dac3f.jpg?imwidth=693" alt="Model sitting" className="w-80   h-96 rounded-lg" />
+           <img src="https://img01.ztat.net/banner/de55b9bcb2e748938ae136a2e000c8e7/f965d1a218944cff8e2eac41340dac3f.jpg?imwidth=693" alt="Model sitting" className="w-80   w-[750px]  h-96 rounded-lg" />
                </div>
            </section>
 

@@ -529,3 +529,71 @@ export const cosmeticProducts = [
     unitsSold: 40,
   },
 ];
+
+export const tshirtProducts = [
+  {
+    id: 1,
+    image: "https://img01.ztat.net/article/spp-media-p1/5863ab618bf146d4af7566fa15634d0b/651ee1ec8ae54351856a863ee0a6362d.jpg?imwidth=762",
+    name: "Nike Cotton T-Shirt",
+    price: "19.99 kr",
+    availablePieces: 150,
+    unitsSold: 80,
+  },
+  {
+    id: 2,
+    image: "https://img01.ztat.net/article/spp-media-p1/c6bc8f287f204b849167d274c9ca5d78/a490aef8c61c4c91abe2339b3d84c82d.jpg?imwidth=762",
+    name: "Adidas Sports T-Shirt",
+    price: "24.99 kr",
+    availablePieces: 120,
+    unitsSold: 60,
+  },
+  {
+    id: 3,
+    image: "https://img01.ztat.net/article/spp-media-p1/347a08c24f744594b2c6f6759977d22f/36297cf04b6842b0a0ae0a442fec841a.jpg?imwidth=762",
+    name: "Puma Classic Tee",
+    price: "22.99 kr",
+    availablePieces: 100,
+    unitsSold: 90,
+  },
+  {
+    id: 4,
+    image: "https://img01.ztat.net/article/spp-media-p1/689a8960f3a6460ba78cb30360c2028d/3fc66bf15e2547cc8683c70f4fded077.jpg?imwidth=762",
+    name: "Under Armour Training T-Shirt",
+    price: "29.99 kr",
+    availablePieces: 140,
+    unitsSold: 70,
+  },
+  {
+    id: 5,
+    image: "https://img01.ztat.net/article/spp-media-p1/c7c4f7d2c11e4acdb97ae5ed9b7b6e82/80cf44a4dce348dfb88a7f3ec4c85be7.jpg?imwidth=762",
+    name: "Levi's Graphic Tee",
+    price: "18.99 kr",
+    availablePieces: 200,
+    unitsSold: 130,
+  },
+  {
+    id: 6,
+    image: "https://img01.ztat.net/article/spp-media-p1/c6bc8f287f204b849167d274c9ca5d78/a490aef8c61c4c91abe2339b3d84c82d.jpg?imwidth=762",
+    name: "H&M Basic T-Shirt",
+    price: "14.99 kr",
+    availablePieces: 180,
+    unitsSold: 110,
+  },
+  {
+    id: 7,
+    image: "https://images.pexels.com/photos/5480693/pexels-photo-5480693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    name: "Zara Slim Fit Tee",
+    price: "27.99 kr",
+    availablePieces: 90,
+    unitsSold: 50,
+  },
+  {
+    id: 8,
+    image: "https://images.pexels.com/photos/991509/pexels-photo-991509.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    name: "Tommy Hilfiger Logo T-Shirt",
+    price: "34.99 kr",
+    availablePieces: 75,
+    unitsSold: 40,
+  },
+];
+

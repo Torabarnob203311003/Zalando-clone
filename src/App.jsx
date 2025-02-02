@@ -9,12 +9,13 @@ import StoryCard from './components/storycard'
 import PromotionalBanner from './components/PromotionalBanner';
 
 import ProductSection from './components/ProductSection';
-import { products, workoutShoeProducts, stories, stories2, adidasShoeProducts, cosmeticProducts } from './contents/contentconfigs';
+import { products, workoutShoeProducts, stories, stories2, adidasShoeProducts, cosmeticProducts, tshirtProducts } from './contents/contentconfigs';
 import Heroagain from './components/heroagain';
 import ShoeCard from './components/ShoeCard.';
 import Hero3 from './components/Hero3';
 import Footer from './components/Contact';
 import Footer2 from './components/last';
+import Hero4 from './components/Hero4';
 
 
 
@@ -41,7 +42,11 @@ function App() {
 
       <Hero3 />
       <Products products={cosmeticProducts} color='bg-rose-100' imgstyle={"w-72 h-fit object-cover rounded-lg"} />
-      <Footer/>
+     
+      <Hero4 />
+
+      <Products products={tshirtProducts} color='bg-white' imgstyle={"w-72 h-fit object-cover rounded-lg"} />
+     <Footer/>
       <Footer2/>
 
 
