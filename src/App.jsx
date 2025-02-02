@@ -11,6 +11,7 @@ import PromotionalBanner from './components/PromotionalBanner';
 import ProductSection from './components/ProductSection';
 import { products, workoutShoeProducts, stories, stories2 } from './contents/contentconfigs';
 import Heroagain from './components/heroagain';
+import ShoeCard from './components/ShoeCard.';
 
 
 
@@ -32,6 +33,7 @@ function App() {
       <ProductSection/>
       <StoryCard stories={stories2} lines ="feel the Trouser" />
             <Heroagain/>
+            <ShoeCard/>
 
 
     </div>
