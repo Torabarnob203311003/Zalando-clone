@@ -13,6 +13,8 @@ import { products, workoutShoeProducts, stories, stories2, adidasShoeProducts, c
 import Heroagain from './components/heroagain';
 import ShoeCard from './components/ShoeCard.';
 import Hero3 from './components/Hero3';
+import Footer from './components/Contact';
+import Footer2 from './components/last';
 
 
 
@@ -39,7 +41,8 @@ function App() {
 
       <Hero3 />
       <Products products={cosmeticProducts} color='bg-rose-100' imgstyle={"w-72 h-fit object-cover rounded-lg"} />
-
+      <Footer/>
+      <Footer2/>
 
 
 
