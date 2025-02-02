@@ -9,7 +9,7 @@ import StoryCard from './components/storycard'
 import PromotionalBanner from './components/PromotionalBanner';
 
 import ProductSection from './components/ProductSection';
-import { products, workoutShoeProducts, stories, stories2, adidasShoeProducts } from './contents/contentconfigs';
+import { products, workoutShoeProducts, stories, stories2, adidasShoeProducts, cosmeticProducts } from './contents/contentconfigs';
 import Heroagain from './components/heroagain';
 import ShoeCard from './components/ShoeCard.';
 import Hero3 from './components/Hero3';
@@ -27,19 +27,21 @@ function App() {
       <Banner />
       <Hero />
       <Products products={products} color='bg-amber-400' imgstyle={"w-72 h-fit object-cover rounded-lg"} />
-      <StoryCard stories={stories} lines="feel the Vibe"  />
+      <StoryCard stories={stories} lines="feel the Vibe" />
       <PromotionalBanner />
 
       <Products products={workoutShoeProducts} color='bg-amber-200' imgstyle={"w-72 h-fit object-cover rounded-lg"} />
-      <ProductSection/>
-      <StoryCard stories={stories2} lines ="feel the Trouser" />
-            <Heroagain/>
-            <ShoeCard/>
+      <ProductSection />
+      <StoryCard stories={stories2} lines="feel the Trouser" />
+      <Heroagain />
+      <ShoeCard />
       <Products products={adidasShoeProducts} color='bg-gray-600' imgstyle={"w-72 h-fit object-cover rounded-lg"} />
 
-      <Hero3/>
+      <Hero3 />
+      <Products products={cosmeticProducts} color='bg-rose-100' imgstyle={"w-72 h-fit object-cover rounded-lg"} />
 
-     
+
+
 
     </div>
   );

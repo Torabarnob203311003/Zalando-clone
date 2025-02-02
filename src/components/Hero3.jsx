@@ -3,7 +3,7 @@
  export default function Hero3({}) {
    return (
      <div>
-           <section className="flex flex-col lg:flex-row items-center justify-between mt-16 px-20 py-10 bg-gray-300">
+           <section className="flex flex-col lg:flex-row items-center justify-between mt-16 px-20 py-10 bg-rose-300">
                <div className="max-w-lg pb-32 pl-60 text-center lg:text-left">
                    <h2 className="text-4xl font-bold">Serve Face
              <span className='font-extralight'> ...and Steal herats</span></h2>
