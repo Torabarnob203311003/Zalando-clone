@@ -392,4 +392,76 @@ export const workoutShoeProducts = [
     title: "Tailored Elegance",
     description: "Formal trousers with a sleek finish",
   },
+
+
+  
 ];
+
+
+export const adidasShoeProducts = [
+  {
+    id: 1,
+    image: 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c2ff02abbd304144b45797e8408f581a_9366/Gazelle_Indoor_Shoes_Blue_JI2061_01_standard.jpg',
+    name: 'Supernova Rise',
+    price: '129.99 kr',
+    availablePieces: 100,
+    unitsSold: 50,
+  },
+  {
+    id: 2,
+    image: 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/de468b8c392246c9b9a53d45606d50c6_9366/Anthony_Edwards_1_Low_Nicks_Gift_Shoes_Blue_JQ6139_01_00_standard.jpg',
+    name: 'Ultraboost Light',
+    price: '149.99 kr',
+    availablePieces: 120,
+    unitsSold: 75,
+  },
+  {
+    id: 3,
+    image: 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b324422839d4414aa851c7266e3630de_9366/Superstar_II_Shoes_White_JI0080_01_00_standard.jpg',
+    name: 'Solar Glide 6',
+    price: '119.99 kr',
+    availablePieces: 90,
+    unitsSold: 40,
+  },
+  {
+    id: 4,
+    image: 'https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/48d2ce575e354ea995881159380a65cf_9366/Gazelle_Indoor_Shoes_Black_JQ2692_01_00_standard.jpg',
+    name: 'Adizero Boston 12',
+    price: '139.99 kr',
+    availablePieces: 80,
+    unitsSold: 35,
+  },
+  {
+    id: 5,
+    image: 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4659ee058ba34bd2a5d0af500104c17d_9366/Campus_00s_Shoes_Black_HQ8708_01_standard.jpg',
+    name: 'Runfalcon 3.0',
+    price: '89.99 kr',
+    availablePieces: 150,
+    unitsSold: 85,
+  },
+  {
+    id: 6,
+    image: 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4ff790231b7f461baee3c291e96b74af_9366/Ultraboost_1.0_Shoes_Black_HQ4199_HM1.jpg',
+    name: 'Adizero Adios Pro 3',
+    price: '179.99 kr',
+    availablePieces: 70,
+    unitsSold: 30,
+  },
+  {
+    id: 7,
+    image: 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c2ff02abbd304144b45797e8408f581a_9366/Gazelle_Indoor_Shoes_Blue_JI2061_01_standard.jpg',
+    name: 'Duramo SL',
+    price: '74.99 kr',
+    availablePieces: 200,
+    unitsSold: 100,
+  },
+  {
+    id: 8,
+    image: 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4ff790231b7f461baee3c291e96b74af_9366/Ultraboost_1.0_Shoes_Black_HQ4199_HM1.jpg',
+    name: 'Galaxy 6',
+    price: '69.99 kr',
+    availablePieces: 180,
+    unitsSold: 95,
+  },
+];
+

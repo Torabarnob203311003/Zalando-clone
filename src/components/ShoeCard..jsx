@@ -1,6 +1,6 @@
 export default function ShoeCard() {
     return (
-        <div className="flex items-center justify-center mt-11 pb-11 pt-5 bg-black">
+        <div className="flex items-center justify-center mt-11 pt-28 pb-44  pt-5 bg-black">
             <div className="flex bg-black text-white max-w-5xl w-full rounded-lg overflow-hidden items-center justify-between p-6">
                 {/* Left Section - Image */}
                 <div className="w-1/2 flex justify-center">

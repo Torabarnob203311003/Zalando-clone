@@ -9,9 +9,10 @@ import StoryCard from './components/storycard'
 import PromotionalBanner from './components/PromotionalBanner';
 
 import ProductSection from './components/ProductSection';
-import { products, workoutShoeProducts, stories, stories2 } from './contents/contentconfigs';
+import { products, workoutShoeProducts, stories, stories2, adidasShoeProducts } from './contents/contentconfigs';
 import Heroagain from './components/heroagain';
 import ShoeCard from './components/ShoeCard.';
+import Hero3 from './components/Hero3';
 
 
 
@@ -34,7 +35,11 @@ function App() {
       <StoryCard stories={stories2} lines ="feel the Trouser" />
             <Heroagain/>
             <ShoeCard/>
+      <Products products={adidasShoeProducts} color='bg-gray-600' imgstyle={"w-72 h-fit object-cover rounded-lg"} />
 
+      <Hero3/>
+
+     
 
     </div>
   );
